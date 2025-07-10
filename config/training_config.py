@@ -1,0 +1,6 @@
+EPOCHS = 20
+BATCH_SIZE = 64
+PATIENCE = 5
+LEARNING_RATE = 1e-3
+CLIPNORM = 1.0
+THRESH_GRID = (0.1, 0.9, 0.01)   # start, stop, step
